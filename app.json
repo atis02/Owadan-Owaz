@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "owadanOwaz",
+    "name": "Owadan Owaz",
     "slug": "owadanOwaz",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/owadanOwaz.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/owadanOwaz.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/owadanOwaz.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.atis2002.owadanOwaz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d7742e9b-b337-4253-bfaf-92927a5c3347"
+      }
     }
   }
 }
